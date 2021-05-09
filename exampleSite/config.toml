@@ -18,7 +18,6 @@ keywords = "blog,developer,personal"
 info = "Full Stack DevOps and Magician"
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
-footerContent = "Enter a text here."
 dateFormat = "January 2, 2006"
 hideFooter = false
 # Right To Left, shift content direction for languagues such as Arabic
