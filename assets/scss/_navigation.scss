@@ -89,13 +89,22 @@
   }
 
   #dark-mode-toggle {
-    margin: 1.7rem 0;
-    font-size: 2.4rem;
-    line-height: inherit;
-    bottom: 2rem;
-    left: 2rem;
-    z-index: 100;
-    position: fixed;
+    font-size: 2rem;
+    margin-left: 0.2rem;
+    a {
+      color: $alt-fg-color;
+      background-color: $alt-bg-color;
+      opacity: 50%;
+      transition: opacity 0.5s, color 0.5s;
+      &:hover, &:focus {
+        color: $link-color;
+        opacity: 100%;
+        @media only screen and (max-width : 768px) {
+        color: $alt-fg-color;
+        opacity: 50%;
+       }
+     }
+   }
   }
 
   #menu-toggle {
